@@ -1,0 +1,31 @@
+{
+  "name": "git-data-extractor",
+  "version": "1.0.0",
+  "description": "A node module to extract information from git repository ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suhdev/git-data-extractor.git"
+  },
+  "keywords": [
+    "git",
+    "git",
+    "version",
+    "git",
+    "version",
+    "extract",
+    "extract",
+    "git",
+    "tags",
+    "extraction"
+  ],
+  "author": "Suhail Abood <suhail.abood@gmail.com> (suhailabood.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suhdev/git-data-extractor/issues"
+  },
+  "homepage": "https://github.com/suhdev/git-data-extractor"
+}
