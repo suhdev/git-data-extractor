@@ -20,6 +20,28 @@ describe("Extractor Suite", function() {
 	});
 
 	it("should get all tags of a remote git repo",function(){
+		var conf = {
+			gitUrl:'https://github.com/suhdev/songkick-wrapper.git',
+			tagComparator:function(tag){
+				return tag.shortSha;
+			}
+		};
+		var ex = new Extractor(conf);
+		var tags = ex.getTags();
+		// expect.
+		console.log(tags);
 		
+	});
+
+	it("should get all commits of a local repo",function(){
+		var conf = {
+			gitUrl:'https://github.com/suhdev/songkick-wrapper.git',
+			tagComparator:function(tag){
+				return tag.shortSha;
+			}
+		};
+		var ex = new Extractor(conf);
+		var commits = ex.getCommits(path.normalize(__dirname+'/../.git')); 
+		console.log(commits);
 	});
 });
