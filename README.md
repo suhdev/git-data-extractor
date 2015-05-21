@@ -12,7 +12,9 @@ A node module to extract information from git repositories.
 
 ### Clone git repository 
 
-git clone https://github.com/suhdev/git-data-extractor.git
+```sh
+	git clone https://github.com/suhdev/git-data-extractor.git
+```
 
 ## Usage
 
